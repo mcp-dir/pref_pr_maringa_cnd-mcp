@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_pr_maringa_cnd-mcp",
+  "title": "Prefeitura PR Maringá: Certidão Negativa de Débitos (Contribuinte)",
+  "description": "Prefeitura PR Maringá: Clearance Certificate (Debts) (Contribuinte), official-source lookup. Platfor",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_pr_maringa_cnd-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_pr_maringa_cnd"
+    }
+  ]
+}
